@@ -24,3 +24,5 @@ run:
 cd go_fleet/jobs
 go run main.go
 ```
+
+![](https://beef-1256523277.cos.ap-chengdu.myqcloud.com/uPic/lBVUnT.png)
