@@ -5,7 +5,7 @@ import os
 import requests
 from lxml import etree
 
-from jobs.py.utils.email_util import send_email
+from utils.email_util import send_email
 
 
 def get_last():
