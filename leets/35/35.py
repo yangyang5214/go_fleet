@@ -1,5 +1,5 @@
 # https://leetcode-cn.com/problems/search-insert-position/
-
+from typing import List
 
 
 class Solution:
@@ -8,7 +8,7 @@ class Solution:
         left, right = 0, length
         while left <= right: 
             mid = (left + right) // 2
-            if  nums[mid] == target:
+            if nums[mid] == target:
                 return mid
             elif nums[mid] > target:
                 right = mid - 1 
