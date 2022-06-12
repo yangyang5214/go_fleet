@@ -3,3 +3,4 @@ src
 pkg
 */.idea
 demos
+.DS_Store
